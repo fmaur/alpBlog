@@ -43,8 +43,8 @@
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <!-- Titelinfo -->
                         <div class="site-heading">
-                            <h1>Alpnachstad <br> > Pilatus Kulm</h1>
-                            <span class="subheading">Vom See auf den Luzerner Hausberg</span>
+                            <h1>Brülisau AI <br> > Stauberenkanzel</h1>
+                            <span class="subheading">Durch den Alpstein und die Saxer Lücke</span>
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
-                        <p>Anstrengende, jedoch mit einem Erfolgserlebnis belohnende Tour auf den Luzerner Hausberg. Dank der optimalen Lage schnell mit dem Auto und dem öV erreichbar, somit optimal für eine kleine Tagestour.</p>
+                        <p>Tagesfüllende Tour durch den Appenzeller Alpstein mit abwechslungsreichem Terrain und tollen Ausblicken in Richtung Säntis und Rheintal.</p>
                         
                         <!-- Quickinfo Tabelle -->
                         <table class="table table-bordered">
@@ -66,7 +66,14 @@
                                 </tr>
                                 <tr>
                                     <th scope="row">Schwierigkeit</th>
-                                    <td>T2</td>
+                                    <td>T3
+                                        <a tabindex="0" class="ms-1 text-muted" role="button"
+                                        data-bs-toggle="popover" data-bs-trigger="focus"
+                                        title="SAC-Wanderskala"
+                                        data-bs-content="T3: Anspruchsvolle Bergwanderung mit steilen Stellen.<br><a href='https://de.wikipedia.org/wiki/SAC-Wanderskala' target='_blank' class='fst-italic text-decoration-underline'>Mehr Infos</a>">
+                                        <i class="fas fa-info-circle"></i>
+                                        </a>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">Routentyp</th>
@@ -181,5 +188,11 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script>
+            const popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+            const popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                return new bootstrap.Popover(popoverTriggerEl, { html: true });
+            });
+        </script>
     </body>
 </html>
