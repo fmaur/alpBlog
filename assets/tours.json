@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Schneehüenerstock UR > Gütsch",
+    "subtitle": "4,5 km / 100 Hm / 1 h 30 min",
+    "date": "2025-07-08",
+    "url": "tour-28d20093-ad84-4975-a1a7-5d04389f180b.html",
+    "kantone": ["UR"],
+    "stufe": "T2",
+    "nuts": ["CH04"]
+  },
+  {
+    "title": "Alpnachstad NW > Pilatus Kulm",
+    "subtitle": "8,5 km / 1650 Hm / 3 h 30 min",
+    "date": "2025-03-30",
+    "url": "tour-4ee7307d-302c-4339-8caa-2614155bbee6.html",
+    "kantone": ["NW", "OW"],
+    "stufe": "T3",
+    "nuts": ["CH04"]
+  },
+  {
+    "title": "Säntis (SG) > Meglisalp (AI)",
+    "subtitle": "13 km / 1200 Hm / 4 h 30 min",
+    "date": "2025-03-12",
+    "url": "tour-88ba9dfe-5d0b-44c3-b1fd-2db3feac7675.html",
+    "kantone": ["SG", "AI"],
+    "stufe": "T3",
+    "nuts": ["CH05"]
+  },
+    {
+    "title": "Grimselpasshöhe > Belvédère VS",
+    "subtitle": "8,5 km / 700 Hm / 4 h 30 min",
+    "date": "2025-05-31",
+    "url": "tour-88ba9dfe-5d0b-44c3-b1fd-2db3feac7675.html",
+    "kantone": ["BE", "VS"],
+    "stufe": "T5",
+    "nuts": ["CH01", "CH02"]
+  }
+]
