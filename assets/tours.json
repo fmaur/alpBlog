@@ -18,6 +18,15 @@
     "nuts": ["CH04"]
   },
   {
+    "title": "Travers NE > Noiraigue",
+    "subtitle": "13 km / 1200 Hm / 4 h 30 min",
+    "date": "2025-03-12",
+    "url": "tour-278f41ad-4597-4d57-825c-8c02cb9733c1.html",
+    "kantone": ["AI"],
+    "stufe": "T3",
+    "nuts": ["CH05"]
+  },
+  {
     "title": "Brülisau AI > Stauberenkanzel",
     "subtitle": "13 km / 1200 Hm / 4 h 30 min",
     "date": "2025-03-12",
@@ -26,7 +35,7 @@
     "stufe": "T3",
     "nuts": ["CH05"]
   },
-    {
+  {
     "title": "Grimselpasshöhe > Belvédère VS",
     "subtitle": "8,5 km / 700 Hm / 4 h 30 min",
     "date": "2025-05-31",
